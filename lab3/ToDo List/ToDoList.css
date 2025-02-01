@@ -1,0 +1,85 @@
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    background-color: #22352c;
+    height: 50px;
+    display: flex ;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+#header h2 {
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #a1adb6;
+}
+#content {
+    width: 800px;
+    height: 150px;
+    max-width: 800px;
+    /*background-color: #b5bf58;*/
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin: 30px;
+    font-weight: 200;
+}
+
+#input input{
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #6c6c6c;
+    margin-left: 80px;
+    padding-left: 15px;
+}
+
+#input button{
+    width: 65px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #6c6c6c;
+    background-color: #4519a5;
+    margin-left: 30px;
+    color: white;
+}
+
+#input button:hover{
+    background-color: #2a0875;
+}
+
+#list {
+    /*!*width: 800px;*!*/
+    /*!*height: 150px;*!*/
+    /*display: flex;*/
+}
+#list li {
+    width: 720px;
+    height: 50px;
+    border: 1px solid black;
+    list-style: none;
+    margin: 0;
+    padding: 12px 8px 12px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+
+}
+
+#tasks {
+    margin: 0;
+    padding: 0;
+}

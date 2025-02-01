@@ -189,6 +189,14 @@ input::placeholder{
     border: none;
 }
 
+.or-last #line1 {
+    width: 102px;
+    height: 1px;
+    background-color: rgb(219, 219, 219, 1);
+    margin: 0;
+    border: none;
+}
+
 /*-------------------------------------------------Sign In With Facebook -------------------------------------------------------------------*/
 
 .with-fb {
