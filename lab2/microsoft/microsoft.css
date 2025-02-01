@@ -1,0 +1,432 @@
+body {
+    font-size: 13px;
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.head {
+    width: 1367px;
+    height: 54px;
+    padding: 0 76px;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    text-decoration: none;
+}
+
+.picture {
+    height: 475px;
+    background-color: #38bab0;
+}
+/*----------------------------------------------------- Head Logo -----------------------------------------------------------------*/
+.logo {
+    width: 121px;
+    height: 22px;
+    padding: 16px 6px 16px 10px;
+    margin-top: 1px;
+}
+
+#icon {
+    width: 108px;
+    height: 23px;
+    margin-top: -3px;
+}
+
+#icon img{
+    width: 108px;
+    height: 23px;
+    margin-top: -3px;
+}
+
+/*--------------------------------------------------- Head Menu ------------------------------------------------------------------*/
+.menu {
+    box-sizing: border-box;
+    width: 860px;
+    height: 54px;
+    padding: 0 1px 0 2px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu ul li:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+
+.menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li a {
+    color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 8px;
+    height: 100%;
+    text-decoration: none;
+}
+
+
+.micro {
+    height: 49px;
+    width: auto;
+    min-width: 100px;
+}
+.micro a {
+    width: 79px;
+    height: 20px;
+    padding: 16px 8px 10px 8px;
+    margin-top: 1px;
+    border: 1px;
+    white-space: nowrap;
+}
+
+.office {
+    width: 52px;
+    height: 49px;
+}
+
+.office a {
+    width: 34px;
+    height: 20px;
+    padding: 16px 8px 10px 8px;
+    margin-top: 1px;
+    border: 1px;
+}
+
+.windows {
+    width: 70px;
+    height: 49px;
+}
+
+.windows a {
+    width: 53px;
+    height: 20px;
+    padding: 16px 8px 10px 8px;
+    margin-top: 1px;
+    border: 1px;
+}
+
+.support {
+    width: 86px;
+    height: 49px;
+}
+
+.support a {
+    width: 68px;
+    height: 20px;
+    padding: 16px 8px 10px 8px;
+    margin-top: 1px;
+    border: 1px;
+}
+
+/*---------------------------------------------------- Right Side ---------------------------------------------------------------*/
+
+.right{
+    height: 54px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product{
+    width: 180px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 16px 20px 16px 15px;
+    margin-right: 5px;
+    color: #262626;
+    font-size: 13px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.product p:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+
+.product img{
+    width: 12px;
+    height: 12px;
+    margin: 16px 0 11px 4px
+}
+
+.search{
+    width: 80px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.search p{
+    color: #262626;
+    font-size: 13px;
+
+}
+
+.search p:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+
+.search img{
+    width: 17px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+.sign-in{
+    height: 54px;
+    width: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 10px;
+}
+
+.sign-in p{
+    text-align: center;
+    color: #262626;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.sign-in img{
+    width: 34px;
+    height: 34px;
+}
+
+/*------------------------------------------------ Picture main page ------------------------------------------------------------*/
+
+.picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce:VP5-1920x600");
+}
+
+.in-picture {
+    width: 1367px;
+    height: 296px;
+    padding: 0 76px;
+    display: flex;
+
+}
+
+.buy-micro {
+    width: 474px;
+    height: 200px;
+    padding: 48px;
+    display: flex;
+    line-height: 1.5;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    /*position: relative;*/
+
+}
+
+.head-text {
+    width: 474px;
+    height: 45px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.head-text h2 {
+    font-size: 2.3125rem;
+    margin-top: 0;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.between-text {
+    width: 474px;
+    height: 72px;
+    margin-bottom: 24px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+
+.under-text {
+    width: 474px;
+    height: 55px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: -8px 0;
+
+
+}
+
+.under-text a {
+    width: 157px;
+    height: 16px;
+    margin: 8px 0;
+    padding: 10px 12px;
+    border: 2px solid #0067b8;
+    background-color: #0067b8;
+    border-radius: .125rem;
+
+}
+#button-buy {
+    width: 157px;
+    height: 16px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #0067b8;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,bold sans-serif;
+    font-weight: 600;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------- Under Picture -------------------------------------------------------------------------*/
+
+.under-picture {
+    width: 1519px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-position: center;
+    margin-bottom: 48px;
+}
+
+.under-picture img {
+    width: 255px;
+    height: 64px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.constructor {
+    width: 1519px;
+    height: 432px;
+    margin-bottom: 48px;
+}
+
+.main-constructor {
+    width: 1367px;
+    height: 432px;
+    padding:0 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.in-constructor {
+    width: 1391px;
+    height: 432px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.widgets {
+    width: 324px;
+    height: 432px;
+    /*padding: 0 12px;*/
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    border: 1px solid #eae9e9;
+    margin: 0 12px;
+
+}
+
+.widgets img {
+    width: 324px;
+    height: 182px;
+
+}
+
+.text {
+    width: 276px;
+    height: 147px;
+    padding: 24px 24px 0 24px;
+}
+
+.text h2 {
+    width: 275px;
+    margin: 0 0 16px 0;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.in-text {
+    width: 276px;
+    height: 96px;
+    font-size: 16px ;
+}
+
+.buttons {
+    width: 276px;
+    height: 39px;
+    padding: 16px 24px 24px 24px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    cursor: pointer;
+    font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.button-link {
+    width: 276px;
+    height: 55px;
+    margin: -8px  0;
+
+}
+
+.button-link a{
+    width: 60px;
+    height: 16px;
+    padding: 10px 12px;
+    border: 2px solid #0067b8;
+    margin: 8px 0;
+    background-color: #0067b8;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #ffffff;
+}
