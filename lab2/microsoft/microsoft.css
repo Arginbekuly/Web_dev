@@ -251,6 +251,7 @@ body {
     flex-direction: column;
     justify-content: center;
     cursor: pointer;
+    /*position: relative;*/
 
 }
 
@@ -280,6 +281,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
+
 }
 
 .under-text {
@@ -290,6 +292,8 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: -8px 0;
+
+
 }
 
 .under-text a {
@@ -363,11 +367,12 @@ body {
 
 .widgets {
     width: 324px;
-    height: 462px;
+    height: 432px;
     /*padding: 0 12px;*/
     box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
     border: 1px solid #eae9e9;
     margin: 0 12px;
+
 }
 
 .widgets img {
@@ -399,8 +404,7 @@ body {
     width: 276px;
     height: 39px;
     padding: 16px 24px 24px 24px;
-    margin-top: 30px;
-    display: flex;
+    /*display: flex;*/
     /*align-items: center;*/
     /*justify-content: center;*/
     cursor: pointer;
