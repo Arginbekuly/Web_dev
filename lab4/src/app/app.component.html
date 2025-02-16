@@ -1,0 +1,15 @@
+<div class="header">
+    <img src="https://i.pinimg.com/736x/de/20/fb/de20fb6af6de6c5dd65cc3c4a1aa2ea2.jpg" height="70px" width="70px">
+    <h1>Kaspi kz</h1></div>
+<app-product
+    *ngFor = "let product of products"
+    [image]="product.image"
+    [name] = "product.name"
+    [description]="product.description"
+    [price]="product.price"
+    [link]="product.link"
+    [rating]="product.rating"
+    [commentsNumber]="product.commentsNumber"
+    [commentsLink]="product.commentsLink">
+</app-product>
+
