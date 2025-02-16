@@ -40,6 +40,7 @@ export class AppComponent {
       rating: 4.89,
       commentsNumber: 486,
       commentsLink: 'https://kaspi.kz/shop/p/apple-iphone-16-pro-max-256gb-zolotistyi-123890547/?c=750000000&tab=reviews'
-    }]
+    }
+    ]
 }
 
