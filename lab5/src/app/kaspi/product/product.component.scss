@@ -1,0 +1,218 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.products {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  border: 1px solid #b8b7b7;
+  border-radius: 8px;
+  width: 1000px;
+  height: 220px;
+  margin: 20px 250px;
+
+}
+
+.product_img {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+
+
+}
+
+.product_body {
+  display: flex;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, bold sans-serif;
+  min-height: 185px;
+  max-height: 200px;
+  padding: 10px 40px 10px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.product_name {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.product_name h3{
+  margin: 0;
+}
+
+.product_name a{
+  text-decoration: none;
+  color: #0990f1;
+}
+
+.product_name a:hover{
+  text-decoration: underline;
+}
+
+.product_name a:visited{
+  color: #0990f1;
+}
+
+.product_name a:active{
+  min-height: 21px;
+}
+
+.product_description p{
+  margin:0;
+  min-height: 70px;
+}
+
+
+.product_rating_share {
+  margin: 15px 0;
+  min-height: 43px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.rating{
+  height: 20px;
+  width: 117px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/assets/img/default.png");
+}
+.f0to1{
+  background-image: url("/assets/img/f0to1.png");
+}
+.f1to2{
+  background-image: url("/assets/img/f1to2.png");
+}
+.f2to3{
+  background-image: url("/assets/img/f2to3.png");
+}
+.f3to4{
+  background-image: url("/assets/img/f3to4.png");
+}
+.f4to5{
+  background-image: url("/assets/img/f4to5.png");
+}
+.f5star{
+  background-image: url("/assets/img/f5star.png");
+}
+.defaultsStar{
+  background-image: url("/assets/img/default.png");
+}
+
+.product_rating_share{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding-top: 10px;
+}
+.rating-number p{
+  margin: 0;
+}
+
+.comments a{
+  text-decoration: none;
+  color: #9b9b9b;
+}
+
+.comments a:hover{
+  text-decoration: underline;
+  color: #858585;
+}
+
+#WhatsApp {
+  height: 25px;
+  width: 25px;
+  margin-left: 15px;
+  margin-right: 10px;
+  background: url("https://png.pngtree.com/png-clipart/20221019/original/pngtree-whatsapp-mobile-software-icon-png-image_8704828.png");
+  background-size: contain;
+  border: none;
+}
+
+#Telegram {
+  height: 25px;
+  width: 25px;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/512px-Telegram_2019_Logo.svg.png");
+  background-size: contain;
+  border: none;
+}
+
+.buy_part {
+  display: flex;
+  flex-direction: row;
+  //align-items: flex-start;
+  //justify-content: left;
+  margin-left: 20px;
+}
+
+#buy {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #092c4e;
+  border-radius: 2px;
+  margin-left: 15px;
+
+  &:hover {
+    background-color: #1977c9;
+  }
+}
+#basket {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: green;
+  border-radius: 2px;
+  margin-left: 15px;
+  &:hover {
+    background-color: #1977c9;
+  }
+}
+
+#remove {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: red;
+  border-radius: 2px;
+  margin-left: 15px;
+  &:hover {
+    background-color: #1977c9;
+  }
+}
+.buy-button{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.buy-button button a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.product_price   {
+  color: #9b9b9b;
+}
+.price {
+  color : black;
+  font-weight: bold;
+}
+#credit-price {
+  background-color: #ffff02;
+}

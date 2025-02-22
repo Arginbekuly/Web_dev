@@ -1,0 +1,40 @@
+<div class="products">
+  <div class = "product_img">
+    <img [src]="image" height="200px" width="170px" alt="product">
+  </div>
+  <div class = "product_body">
+    <div class="product_name">
+      <a href="#">{{ name }}</a>
+    </div>
+    <div class="product_description">
+      <p>{{ description}}</p>
+    </div>
+    <div class="product_rating_share">
+      <div class="rating_number" >
+        <p>{{ rating }}</p>
+      </div>
+      <div class="rating" [ngClass]="getRatingClass()"></div>
+      <div class="comments">
+        <a href="commentsLink">({{ commentsNumber }}  reviews)</a>
+      </div>
+      <div class="sharing">
+        <button id="WhatsApp" (click)="shareProductW()"></button>
+        <button id="Telegram" (click)="shareProductT()"></button>
+      </div>
+    </div>
+    <div class="buy_part">
+      <div class="product_price">
+        <p>In installments:
+          <span id="credit-price">{{ (price / 12).toFixed(2)}}</span>
+          <span><span> x12</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+          <span class="price">Price: </span><strong class = "price">{{ price }}₸</strong></p>
+      </div>
+      <div class="buy-button">
+        <button id="basket" (click)="addToBasket()"><a href = "#">Basket</a></button>
+        <button id="buy"><a href="#">Buy</a></button>
+        <button id="remove" (click)="dropToBasket()"><a href = "#">Remove</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+
